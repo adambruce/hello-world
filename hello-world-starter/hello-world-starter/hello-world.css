@@ -1,0 +1,21 @@
+/* Hello World CSS */
+
+/* don't forget to validate at https://jigsaw.w3.org/css-validator/ */
+
+body {
+  background: maroon;
+  font-size: 20px;
+  height: 100vh; /* trick to make the "page" the full height */
+}
+
+p {
+    font-size: 2em;
+    color: #000000;
+}
+
+#shuttle-van {
+    color: #990099;
+    font-size: 30em;
+}
+
+.row {}
