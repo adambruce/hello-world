@@ -42,36 +42,36 @@
     function pageToggle() {
 
        // grab the current column1 column and save it!
-       old_column1 = document.getElementById("hello-world-column1").innerHTML;
+        old_column1 = document.getElementById("hello-world-column1").innerHTML;
 
        // replace the screen contents of column1 column with new_text
-       document.getElementById("hello-world-column1").innerHTML = new_column1;
+        document.getElementById("hello-world-column1").innerHTML = new_column1;
 
        // grab the current column1 column and save it!
-       old_column2 = document.getElementById("hello-world-column2").innerHTML;
+        old_column2 = document.getElementById("hello-world-column2").innerHTML;
 
        // replace the screen contents of column1 column with new_text
-       document.getElementById("hello-world-column2").innerHTML = new_column2;
+        document.getElementById("hello-world-column2").innerHTML = new_column2;
 
-       console.log("-- updated by click --");
-       console.log("new_column1: " + new_column1);
-       console.log("old_column1: " + old_column1);
-       console.log("new_column2: " + new_column2);
-       console.log("old_column2: " + old_column2);
-       console.log("----------------------\n\n\n");
+        console.log("-- updated by click --");
+        console.log("new_column1: " + new_column1);
+        console.log("old_column1: " + old_column1);
+        console.log("new_column2: " + new_column2);
+        console.log("old_column2: " + old_column2);
+        console.log("----------------------\n\n\n");
 
        // this allows the "toggle" - we swap the old for the new!
-       new_column1 = old_column1;
-       new_column2 = old_column2;
+        new_column1 = old_column1;
+        new_column2 = old_column2;
 
-       console.log("-- updated by \"toggle\" --");
-       console.log("new_column1: " + new_column1);
-       console.log("old_column1: " + old_column1);
-       console.log("*** NOTE: new_column1 == old_column1 now! ***");
-       console.log("new_column2: " + new_column2);
-       console.log("old_column2: " + old_column2);
-       console.log("*** NOTE: new_column2 == old_column2 now! ***");
-       console.log("-------------------------\n\n\n");
-   }
+        console.log("-- updated by \"toggle\" --");
+        console.log("new_column1: " + new_column1);
+        console.log("old_column1: " + old_column1);
+        console.log("*** NOTE: new_column1 == old_column1 now! ***");
+        console.log("new_column2: " + new_column2);
+        console.log("old_column2: " + old_column2);
+        console.log("*** NOTE: new_column2 == old_column2 now! ***");
+        console.log("-------------------------\n\n\n");
+    }
     document.body.addEventListener("click", pageToggle);
 }());
