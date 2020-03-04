@@ -1,0 +1,19 @@
+/* Hello World CSS */
+
+/* don't forget to validate at https://jigsaw.w3.org/css-validator/ */
+
+body {
+  background-image: url("bricksbw.jpg");
+  background-size: cover;
+  font-size: 16px;
+  height: 100vh; /* trick to make the "page" the full height */
+}
+
+p {
+    background-color: 	rgb(128, 128, 128, .55);
+    border: 3px solid black;
+    padding: 10px;
+    margin: 10px;
+    font-size: 4em;
+    color: #d9d9d9;
+}
